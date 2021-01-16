@@ -15,10 +15,13 @@ a {
 
 p {
     margin: 0px;
+    text-align: center;
 }
 
 h1 {
     text-align: center;
+    color: white;
+    margin-bottom: 5px;
 }
 
 h2 {
@@ -102,9 +105,10 @@ h3 {
     padding: 30px;
 }
 
-#hero .hero-top h1 {
+#hero .hero-top > p {
     color: white;
 }
+
 
 #hero .hero-middle {
     border: 10px solid white;
