@@ -99,6 +99,7 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #hero .hero-top {
@@ -123,7 +124,7 @@ h3 {
 
 #hero .hero-bottom {
     margin-top: 50px;
-    height: 210px;
+    height: 220px;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -150,7 +151,53 @@ h3 {
 
 }
 
-/* About Styles */
+#about-me {
+    height: 790px;
+    background-image: url('./images/podium.JPG');
+    background-size: cover;
+    width: 100%;
+}
+
+#about-me .about-content {
+    margin-left: 850px;
+    padding-top: 50px;
+    padding-right: 50px;
+}
+
+#about-me .about-background {
+    background-color: rgb(3, 0, 27);
+    height: 325px;
+    border: 10px solid white;
+}
+
+#about-me .about-title {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 300%;
+    text-align: center;
+    padding-top: 25px;
+
+}
+
+#about-me .about-subtitle {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 200%;
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+#about-me .about-description {
+    color: white;
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 150%;
+}
+
+/* Experience Styles */
 
 #about .about-container {
     justify-content: center;
@@ -265,3 +312,4 @@ h3 {
     border: 3px solid black;
     align-self: center;
 }
+
