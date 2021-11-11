@@ -19,15 +19,12 @@ p {
 }
 
 h1 {
-    text-align: center;
     color: white;
     margin-bottom: 5px;
 }
 
 h2 {
-    text-align: center;
     margin: 0px;
-    padding-top: 35px;
 }
 
 h3 {
@@ -199,90 +196,138 @@ h3 {
 
 /* Experience Styles */
 
-#about .about-container {
-    justify-content: center;
+#work-experience .work-container {
     background-image: url('./images/home-bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    gap: 10px;
-    min-width: 1220px;
+    width: 100%;
+    min-height: 700px;
+    text-align: center;
 }
 
-
-#about .top-left > .h2-wrapper {
-    float: right;
-    margin-left: 400px;
-    margin-top: 50px;
+#work-experience h1.title {
+    padding-top: 25px;
 }
 
-#about .top-left > .passion-wrapper {
-    float: right;
+.title {
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 200%;
+}
+
+#work-experience .work-columns {
+    text-align: center;
+    padding-top: 15px;
+    display: flex;
+}
+
+#work-experience .work-column {
     color: white;
-    height: 340px;
-    width: 550px;
-    margin-top: 15px;
-    padding: 10px;
-    word-spacing: 5px;
-    line-height: 23px;
-    background-color: black;
     border: 3px solid white;
+    flex: 1;
+    margin: 15px;
+    background-color: rgb(3, 0, 27);
 }
 
-#about .top-right {
-    width: 100%;
-    height: 100%;
+#work-experience h4, h5, h6, ul {
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-#about .top-right img {
-    display: block;
-    border: 4px solid black;
-    margin-top: 15px;
-    height: 358px;
-}
-
-#about .bottom-left img {
-    display: block;
-    float: right;
-    width: 570px;
-    margin-bottom: 150px;
-    border: 4px solid black;
-}
-
-#about .bottom-right {
-    width: 100%;
-    height: 100%;
+#work-experience ul {
     text-align: left;
+    margin-right: 15px;
 }
 
-#about .bottom-right > .h2-wrapper {
-    background-color: black;
-    border: 3px solid white;
-    color: white;
-    float: left;
-    width: 537px;
-    height: 316px;
-    
+#work-experience li {
+    margin: 10px;
 }
 
-#about .h2-wrapper a {
-    color: white;
-    text-decoration-color: white;
-    text-decoration: none;
-    transition: color 0.3s;
-}
-
-#about .h2-wrapper a:hover {
+#work-experience li:hover {
     color: rgb(255, 255, 106);
 }
 
-#about .blog-links-wrapper {
-    padding-top: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+/* Leadership and Skills Styles */
+
+.leadership-section {
+    height: 500px;
+    width: 100%;
 }
+
+.leadership-container {
+    background-color: white;
+    margin: 100px;
+    margin-bottom: 50px;
+    border-radius: 25px;
+}
+
+
+
+.leadership-content {
+    padding: 30px;
+}
+
+.leadership-content .title {
+    text-align: center;
+    padding: 0px;
+    color: black;
+}
+
+.subtitle {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 150%;
+}
+
+.leadership-content h6 {
+    font-style: italic;
+    font-size: 140%;
+    margin-bottom: 0px;
+    margin-top: 25px;
+}
+
+.is-left {
+    text-align: left;
+}
+
+.skills-classes-section {
+    width: 100%;
+}
+
+.skills-classes-container {
+    margin: 100px;
+    margin-top: 50px;
+}
+
+.sc-columns {
+    display: flex;
+    column-gap: 150px;
+}
+
+.sc-column {
+    flex: 1;
+    color: white;
+    text-align: center;
+
+}
+
+.sc-column ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.sc-column ul li {
+    padding: 10px;
+}
+
+hr {
+    width: 1000px;
+    color: white;
+}
+
+/* Interest Styles */
+
+
+
+
 
 /* Contact Styles  */
 
